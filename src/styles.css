@@ -23,9 +23,13 @@ header {
 body {
     margin: 0px;
     background-color: #07487e;
+    color: #113662;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
 }
 
-h1 {
+#title {
     margin-left: 10px;
     font-weight: 100;
     
@@ -73,13 +77,19 @@ nav {
 
 .subheaders {
     text-align: center;
+    color: #113662;
 }
 
 .sections {
     background-color:#f7f4ef;
 
-    padding: 20px;
-    margin: 50px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
     /* border: 2px solid;
     border-color: #07487e; */
     border-radius: 10px;
@@ -88,8 +98,11 @@ nav {
 }
 
 #about {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    
+    /* margin-bottom: 5%; */
 }
 
 /* LINKS (includes nav headers): Might need to change to specific links */
@@ -124,14 +137,13 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .school {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: left;
 
     align-items: center;
 }
@@ -143,6 +155,8 @@ a:visited {
     margin-right: auto; */
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 5%;
 
     max-width: 300px;
     max-height: 300px;
@@ -155,8 +169,39 @@ a:visited {
 .schoolinfo {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+}
+
+.schoolname {
+    margin-bottom: 0px;
+}
+
+.schooldegree {
+    margin-top: 1.4em;
+    margin-bottom: 1.3em;
+}
+
+/* Controls direction and positioning of the smaller school details */
+.schooldetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.detail {
+    background-color: #113662;
+    color: #f7f4ef;
+
+    margin-top: 0px;
+    margin-left: 7px;
+    margin-right: 14px;
+
+    padding: 1.0em;
+
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: #113662;
 }
 
 footer {

@@ -1,7 +1,7 @@
 function ActivitiesInterests() {
     return (
         <div id="activitiesandinterests" class="sections">
-            <h2 class="subheaders">Activities and Interests</h2>
+            <h1 class="subheaders">Activities and Interests</h1>
             <ul>
                 <li>Activities</li>
                 <ul>

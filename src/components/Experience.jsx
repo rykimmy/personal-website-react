@@ -1,7 +1,7 @@
 function Experience() {
     return (
         <div id="experience" class="sections">
-            <h2 class="subheaders">Experience</h2>
+            <h1 class="subheaders">Experience</h1>
             <ul>
                 <li>UNIKEY Academy</li>
                 <li>AlgoEd</li>

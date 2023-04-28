@@ -1,7 +1,7 @@
 function Projects() {
     return (
         <div id="projects" class="sections">
-            <h2 class="subheaders">Projects</h2>
+            <h1 class="subheaders">Projects</h1>
             <ul>
                 <li>Tiny Search Engine</li>
                 <li>Sudoku</li>

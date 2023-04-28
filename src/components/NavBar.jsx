@@ -2,7 +2,7 @@ function NavBar() {
     return (
         <div>
             <header>
-                <h1>Ryan Kim</h1>
+                <h1 id="title">Ryan Kim</h1>
                 <nav>
                     <p><a className="navbar" href="#about">About</a></p>{'  '}
                     <p><a className="navbar" href="#education">Education</a></p>{'  '}

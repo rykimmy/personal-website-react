@@ -1,8 +1,8 @@
 function About() {
     return (
         <div id="about" class="sections">
-            <h2 class="subheaders">About</h2>
-                <p id="about">My name is Ryan Kim, and I am a sophomore studying computer science and human centered design at Dartmouth College. As a Korean-American, I was born and raised in Seoul before leaving to attend a boarding school in the US, and I now live in Hong Kong. This is a brief introduction, but continue checking out my website to learn more about me!</p>
+            <h1 class="subheaders">About</h1>
+                <p id="about">Hi there! My name is Ryan Kim, and I am a Sophomore (’25) at Dartmouth College studying Computer Science and Human Centered Design! I am an aspiring software developer and have displayed some of my content and information below. I hope you enjoy!</p>
         </div>
     )
 }
