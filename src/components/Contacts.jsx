@@ -1,9 +1,9 @@
 function Contacts() {
     return (
         <footer>
-            <a class="contacts" href="mailto:ryan.s.kim.25@dartmouth.edu"><img class="contactimg" src="emailicon.png" /></a>
-            <a class="contacts" href="https://github.com/rykimmy"><img class="contactimg" src="githubicon.png" /></a>
-            <a class="contacts" href="https://www.linkedin.com/in/ryan-kim-b013b81bb/"><img class="contactimg" src="linkedinicon.png" /></a>
+            <a className="contacts" href="mailto:ryan.s.kim.25@dartmouth.edu"><img class="contactimg" src="emailicon.png" /></a>
+            <a className="contacts" target="_blank" href="https://github.com/rykimmy"><img class="contactimg" src="githubicon.png" /></a>
+            <a className="contacts" target="_blank" href="https://www.linkedin.com/in/ryan-kim-b013b81bb/"><img class="contactimg" src="linkedinicon.png" /></a>
         </footer>
     )
 }

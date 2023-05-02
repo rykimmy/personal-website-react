@@ -132,6 +132,9 @@ a:visited {
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+/* ------------------------------------------- */
+/* ------------ EDUCATION SECTION ------------ */
+/* ------------------------------------------- */
 
 .edu {
     display: flex;
@@ -140,10 +143,10 @@ a:visited {
     /* align-items: center; */
 }
 
-.school {
+.educationitem {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: left; /* CHANGE TO CENTER (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
 
     align-items: center;
 }
@@ -151,10 +154,10 @@ a:visited {
 .schoolimg {
     /* display: block; */
 
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 30px;
     margin-bottom: 30px;
+
+    /* CHANGE SO THAT IT'S CENTERED (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
     margin-left: 20%;
     margin-right: 5%;
 
@@ -167,23 +170,21 @@ a:visited {
 }
 
 .schoolinfo {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
+    /* display: flex;
+    flex-direction: column; */
 }
 
-.schoolname {
+.itemtitle {
     margin-bottom: 0px;
 }
 
-.schooldegree {
+.itemdescription {
     margin-top: 1.4em;
     margin-bottom: 1.3em;
 }
 
 /* Controls direction and positioning of the smaller school details */
-.schooldetails {
+.itemdetails {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -202,6 +203,43 @@ a:visited {
     border: 2px solid;
     border-radius: 50px;
     border-color: #113662;
+}
+
+/* ------------------------------------------- */
+/* ------------ EXPERIENCE SECTION ------------ */
+/* ------------------------------------------- */
+
+.experienceimg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 5%;
+
+    max-width: 300px;
+    max-height: 300px;
+
+    border-radius: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.experienceitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    align-items: center;
+}
+
+.experienceinfo {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.experiencedetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 footer {
