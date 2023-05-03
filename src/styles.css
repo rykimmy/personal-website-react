@@ -97,25 +97,6 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#about {
-    padding-left: 7%;
-    padding-right: 7%;
-    text-align: center;
-    
-    /* margin-bottom: 5%; */
-}
-
-/* LINKS (includes nav headers): Might need to change to specific links */
-a:link {
-    /* color: #f7f4ef; */
-    text-decoration: none;
-
-}
-a:visited {
-    /* color: #f7f4ef; */
-    text-decoration: none;
-}
-
 /* Profile picture */
 #dp {
     display: block;
@@ -132,38 +113,67 @@ a:visited {
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+/* LINKS (includes nav headers): Might need to change to specific links */
+a:link {
+    /* color: #f7f4ef; */
+    text-decoration: none;
+
+}
+a:visited {
+    /* color: #f7f4ef; */
+    text-decoration: none;
+}
+
+/* ------------------------------------------- */
+/* -------------- ABOUT SECTION -------------- */
+/* ------------------------------------------- */
+
+#about {
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    
+    margin-bottom: 7%;
+}
+
+/* .languagetitle {
+    margin-top: 10%;
+} */
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.languageitem{
+    box-shadow: none;
+}
+
+.languageimg {
+    max-width: 50px;
+    max-height: 50px;
+}
+
 /* ------------------------------------------- */
 /* ------------ EDUCATION SECTION ------------ */
 /* ------------------------------------------- */
 
-.edu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* align-items: center; */
-}
-
 .educationitem {
     display: flex;
     flex-direction: row;
-    justify-content: left; /* CHANGE TO CENTER (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
+    justify-content: center; /* CHANGE TO CENTER (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
 
     align-items: center;
+
+    padding: 2%;
 }
 
-.schoolimg {
-    /* display: block; */
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    /* CHANGE SO THAT IT'S CENTERED (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
-    /* LOOK AT AND TAKE FROM PROJECT SECTION */
-    margin-left: 20%;
-    margin-right: 5%;
-
-    max-width: 300px;
-    max-height: 300px;
+.educationimg {
+    max-width: 200px;
+    max-height: 200px;
 
     border-radius: 50%;
 
@@ -171,8 +181,11 @@ a:visited {
 }
 
 .schoolinfo {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+
+    margin-left: 5%;
 }
 
 .itemtitle {
@@ -184,7 +197,6 @@ a:visited {
     margin-bottom: 1.3em;
 }
 
-/* Controls direction and positioning of the smaller school details */
 .itemdetails {
     display: flex;
     flex-direction: row;
@@ -192,18 +204,15 @@ a:visited {
 }
 
 .detail {
-    background-color: #113662;
+    background-color: #07487e;
     color: #f7f4ef;
 
     margin-top: 0px;
-    margin-left: 7px;
-    margin-right: 14px;
+    margin-right: 2.0em;
 
-    padding: 1.0em;
+    padding: 1.2em;
 
-    border: 2px solid;
     border-radius: 50px;
-    border-color: #113662;
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -212,37 +221,31 @@ a:visited {
 /* ----------- EXPERIENCE SECTION ------------ */
 /* ------------------------------------------- */
 
-.experienceimg {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 25%;
-    margin-right: 5%;
+.experienceitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-    max-width: 300px;
-    max-height: 300px;
+    align-items: center;
+
+    padding: 2%;
+}
+
+.experienceimg {
+    max-width: 200px;
+    max-height: 200px;
 
     border-radius: 50%;
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.experienceitem {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-
-    align-items: center;
-}
-
 .experienceinfo {
     /* display: flex;
-    flex-direction: column; */
-}
+    flex-wrap: wrap; */
+    max-width: 40%;
 
-.experiencedetails {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    margin-left: 5%;
 }
 
 /* ------------------------------------------- */

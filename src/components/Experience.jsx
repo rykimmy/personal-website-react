@@ -19,9 +19,9 @@ function Experience() {
             <div className="experienceitem">
                 <img className="experienceimg" src="algoed.jpeg" />
 
-                <div className="experiencinfo">
+                <div className="experienceinfo">
                     <h2 className="itemtitle">AlgoEd</h2>
-                    <h4 classname="itemdescription">Data Analyst</h4>
+                    <h4 classname="itemdescription">Founding Intern, Data Analyst</h4>
                     <div className="itemdetails">
                         <h5 className="detail">Hong Kong / Remote</h5>
                         <h5 className="detail">Jul 2021 –  Mar 2022</h5>
