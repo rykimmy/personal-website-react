@@ -8,16 +8,43 @@ function About() {
             <div className="languages">
                 <div className="languageitem">
                     <img className="languageimg" src="python.png" />
-                    <h5>Python</h5>
+                    <h5 className="language">Python</h5>
                 </div>
                 
-                <h5>Java</h5>
-                <h5>C</h5>
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-                <h5>React</h5>
-                <h5>Firebase</h5>
+                <div className="languageitem">
+                    <img className="languageimg" src="java.png" />
+                    <h5 className="language">Java</h5>
+                </div>
+
+                <div className="languageitem">
+                    <img className="languageimg" src="c.png" />
+                    <h5 className="language">C</h5>
+                </div>
+
+                <div className="languageitem">
+                    <img className="languageimg" src="html.png" />
+                    <h5 className="language">HTML</h5>
+                </div>
+
+                <div className="languageitem">
+                    <img className="languageimg" src="css.png" />
+                    <h5 className="language">CSS</h5>
+                </div>
+                
+                <div className="languageitem">
+                    <img className="languageimg" src="javascript.png" />
+                    <h5 className="language">JavaScript</h5>
+                </div>
+                
+                <div className="languageitem">
+                    <img className="languageimg" src="react.png" />
+                    <h5 className="language">React</h5>
+                </div>
+                
+                <div className="languageitem">
+                    <img className="languageimg" src="firebase.png" />
+                    <h5 className="language">Firebase</h5>
+                </div>
             </div>
         </div>
     )
