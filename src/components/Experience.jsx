@@ -24,7 +24,7 @@ function Experience() {
                     <h4 classname="itemdescription">Founding Intern, Data Analyst</h4>
                     <div className="itemdetails">
                         <h5 className="detail">Hong Kong / Remote</h5>
-                        <h5 className="detail">Jul 2021 –  Mar 2022</h5>
+                        <h5 className="detail">Jul 2021 – Mar 2022</h5>
                     </div>
                 </div>
             </div>
