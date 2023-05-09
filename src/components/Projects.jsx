@@ -1,4 +1,8 @@
 function Projects() {
+    
+    // Break into smaller components
+    // Add variables to hold values
+
     return (
         <div id="projects" class="sections">
             <h1 class="subheaders">Projects</h1>
@@ -12,7 +16,7 @@ function Projects() {
 
                 <p className="projectdescription">A tiny search engine that encompasses three components: a crawler, indexer, and querier. The crawler takes a seed URL, explores the page for more links, and continuously crawls pages. The indexer scrolls through all crawled pages and creates an index that maps unique words to their frequencies. Finally, the querier takes search queries and ranks all of the crawled pages based on the search query and the index of words.</p>
 
-                <p><a className="projectlink" href="">GitHub Repository</a></p>
+                <p className="projectlink"><a className="github" href="https://github.com/rykimmy/tse-rykimmy">GitHub Repository</a></p>
             </div>
 
             <div className="projectitem">
@@ -25,7 +29,7 @@ function Projects() {
 
                 <p className="projectdescription">A program that solves sudoku puzzles given through standard input as well as creates original, single-solution sudoku puzzles for users to solve. This program utilizes a back-tracking algorithm to both solve and create puzzles.</p>
 
-                <p><a className="projectlink" href="">GitHub Repository</a></p>
+                <p className="projectlink"><a className="github" href="https://github.com/rykimmy/sudoku">GitHub Repository</a></p>
             </div>
 
             <div className="projectitem">
@@ -37,7 +41,7 @@ function Projects() {
 
                 <p className="projectdescription">This program utilizes a client-server to set up a collaborative graphical editor. Multiple users can draw, edit, and remove sketches with one another in real-time.</p>
 
-                <p><a className="projectlink" target="_blank" href="https://github.com/rykimmy/collaborative-graphical-editor">GitHub Repository</a></p>
+                <p className="projectlink"><a className="github" target="_blank" href="https://github.com/rykimmy/collaborative-graphical-editor">GitHub Repository</a></p>
             </div>
 
             <div className="projectitem">
@@ -49,7 +53,7 @@ function Projects() {
 
                 <p className="projectdescription">This project aims to build a learning algorithm that allows for the program to correctly tag parts of speech in text. The program utilizes Hidden Markov Models and Viterbi decoding to tag parts of speech of sentences. It is trained using a training dataset of sentences with words correctly labeled with their part of speech. It is then assessed on unforeseen text to gauge accuracy.</p>
 
-                <p><a className="projectlink" target="_blank" href="https://github.com/rykimmy/POS-tagger">GitHub Repository</a></p>
+                <p className="projectlink"><a className="github" target="_blank" href="https://github.com/rykimmy/POS-tagger">GitHub Repository</a></p>
             </div>
         </div>
     )
