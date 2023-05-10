@@ -3,24 +3,26 @@ import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
 import ActivitiesInterests from './ActivitiesInterests/ActivitiesInterests';
+import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 function BodyContent() {
     return (
         <div>
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
                 <About />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
                 <Education />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
                 <Experience />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
                 <Projects />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
                 <ActivitiesInterests />
             </AnimationOnScroll>
 
