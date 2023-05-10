@@ -10,19 +10,18 @@ import "animate.css/animate.min.css";
 function BodyContent() {
     return (
         <div>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
-                <About />
-            </AnimationOnScroll>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+            <About />
+            
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Education />
             </AnimationOnScroll>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Experience />
             </AnimationOnScroll>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Projects />
             </AnimationOnScroll>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <ActivitiesInterests />
             </AnimationOnScroll>
 

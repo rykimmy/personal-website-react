@@ -1,4 +1,5 @@
 import ProjectItems from './ProjectItems';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Projects = () => {
     return (
@@ -7,21 +8,23 @@ const Projects = () => {
 
             {ProjectItems.map((item, index) => {
                 return (
-                    <div className="projectitem" key={item.project}>
-                        <h2 className="projecttitle">{item.project}</h2>
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+                        <div className="projectitem" key={item.project}>
+                            <h2 className="projecttitle">{item.project}</h2>
 
-                        <div className="languagedetails">
-                            {item.languages.map((lan, index) => {
-                                return (
-                                    <h5 className="languageitem">{lan.name}</h5>
-                                );
-                            })}
+                            <div className="languagedetails">
+                                {item.languages.map((lan, index) => {
+                                    return (
+                                        <h5 className="languageitem">{lan.name}</h5>
+                                    );
+                                })}
+                            </div>
+
+                            <p className="projectdescription">{item.description}</p>
+
+                            <p className="projectlink"><a className="github" target="_blank" href={item.link}>Github Repository</a></p>
                         </div>
-
-                        <p className="projectdescription">{item.description}</p>
-
-                        <p className="projectlink"><a className="github" target="_blank" href={item.link}>Github Repository</a></p>
-                    </div>
+                    </AnimationOnScroll>
                 );
             })}
         </div>

@@ -1,4 +1,5 @@
 import EducationItems from './EducationItems';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Education = () => {
     return (
@@ -7,22 +8,23 @@ const Education = () => {
 
             {EducationItems.map((item, index) => {
                 return (
-                    <div className="educationitem" key={item.school}>
-                        <div>
-                            <img src={item.logo} className="educationimg" />
-                        </div>
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+                        <div className="educationitem" key={item.school}>
+                            <div>
+                                <img src={item.logo} className="educationimg" />
+                            </div>
 
-                        <div className="schoolinfo">
-                            <h2 className="itemtitle">{item.school}</h2>
-                            <h4 className="itemdescription">{item.degree}</h4>
-                            
-                            <div classname="itemdetails">
-                                <h5 className="detail">{item.location}</h5>
-                                <h5 className="detail">{item.time}</h5>
+                            <div className="schoolinfo">
+                                <h2 className="itemtitle">{item.school}</h2>
+                                <h4 className="itemdescription">{item.degree}</h4>
+
+                                <div classname="itemdetails">
+                                    <h5 className="detail">{item.location}</h5>
+                                    <h5 className="detail">{item.time}</h5>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
+                    </AnimationOnScroll>
                 );
             })}
         </div>

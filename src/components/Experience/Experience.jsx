@@ -1,4 +1,5 @@
 import ExperienceItems from './ExperienceItems';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Experience = () => {
     return (
@@ -7,21 +8,23 @@ const Experience = () => {
 
             {ExperienceItems.map((item, index) => {
                 return (
-                    <div className="experienceitem" key={item.experience}>
-                        <div>
-                            <img src={item.logo} className="experienceimg" />
-                        </div>
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+                        <div className="experienceitem" key={item.experience}>
+                            <div>
+                                <img src={item.logo} className="experienceimg" />
+                            </div>
 
-                        <div className="experienceinfo">
-                            <h2 className="itemtitle">{item.experience}</h2>
-                            <h4 className="itemdescription">{item.role}</h4>
+                            <div className="experienceinfo">
+                                <h2 className="itemtitle">{item.experience}</h2>
+                                <h4 className="itemdescription">{item.role}</h4>
 
-                            <div className="itemdetails">
-                                <h5 className="detail">{item.location}</h5>
-                                <h5 className="detail">{item.time}</h5>
+                                <div className="itemdetails">
+                                    <h5 className="detail">{item.location}</h5>
+                                    <h5 className="detail">{item.time}</h5>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </AnimationOnScroll>
                 )
             })}
         </div>
@@ -35,7 +38,7 @@ const Experience = () => {
 
 //             <div className="experienceitem">
 //                 <img className="experienceimg" src="unikeylogo.jpeg" />
-                
+
 //                 <div className="experienceinfo">
 //                     <h2 className="itemtitle">UNIKEY Academy</h2>
 //                     <h4 className="itemdescription">College Consultant, Standardized Testing Tutor</h4>

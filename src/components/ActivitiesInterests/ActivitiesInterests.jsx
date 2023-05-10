@@ -1,18 +1,21 @@
 import ActivitiesInterestsItems from './ActivitiesInterestsItems';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const ActivitiesInterests = () => {
     return (
         <div id="activitiesandinterests" className="sections">
             <h1 className="subheaders">Activities and Interests</h1>
-            
+
             {ActivitiesInterestsItems.map((item, index) => {
                 return (
-                    <div className="activityitem">
-                        <h2>{item.name}</h2>
-                        <h4>{item.role}</h4>
-                        <img className="activityimg" src={item.logo} />
-                        <p className="activitydescription">{item.description}</p>
-                    </div>
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
+                        <div className="activityitem">
+                            <h2>{item.name}</h2>
+                            <h4>{item.role}</h4>
+                            <img className="activityimg" src={item.logo} />
+                            <p className="activitydescription">{item.description}</p>
+                        </div>
+                    </AnimationOnScroll>
                 );
             })}
         </div>
