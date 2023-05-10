@@ -1,8 +1,8 @@
-import About from './About';
-import Education from './Education';
-import Experience from './Experience';
-import Projects from './Projects';
-import ActivitiesInterests from './ActivitiesInterests';
+import About from './About/About';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
+import ActivitiesInterests from './ActivitiesInterests/ActivitiesInterests';
 
 function BodyContent() {
     return (
