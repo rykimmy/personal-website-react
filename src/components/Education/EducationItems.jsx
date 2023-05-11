@@ -1,7 +1,10 @@
+import dartmouth from '../../img/dartmouthlogo_original.jpeg';
+import choate from '../../img/choatelogo.jpg';
+
 const EducationItems = [
     {
       school: 'Dartmouth College',
-      logo: '../dartmouthlogo_original.jpeg',
+      logo: dartmouth,
       location: 'Hanover, NH',
       time: 'Sep 2021 – Jun 2025',
       degree: 'B.A. in Computer Science modified with Human Centered Design',
@@ -19,7 +22,7 @@ const EducationItems = [
     },
     {
       school: 'Choate Rosemary Hall',
-      logo: 'choatelogo.jpg',
+      logo: choate,
       location: 'Wallingford, CT',
       time: 'Sep 2016 – Jun 2020',
       degree: 'Prepatory Boarding School, Cum Laude Society',

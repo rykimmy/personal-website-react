@@ -264,7 +264,7 @@ a:visited {
 .experienceinfo {
     display: flex;
     flex-wrap: wrap;
-    max-width: 40%;
+    max-width: 30%;
 
     margin-left: 5%;
 }

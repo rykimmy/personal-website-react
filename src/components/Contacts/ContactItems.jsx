@@ -1,17 +1,21 @@
+import email from '../../img/emailicon.png';
+import github from '../../img/githubicon.png';
+import linkedin from '../../img/linkedinicon.png';
+
 const ContactItems = [
     {
         name: 'email',
-        logo: 'emailicon.png',
+        logo: email,
         target: 'malto:ryan.s.kim.25@dartmouth.edu',
     },
     {
         name: 'github',
-        logo: 'githubicon.png',
+        logo: github,
         target: 'https://github.com/rykimmy',
     },
     {
         name: 'linkedin',
-        logo: 'linkedinicon.png',
+        logo: linkedin,
         target: 'https://www.linkedin.com/in/ryan-kim-b013b81bb/',
     },
 ];

@@ -1,16 +1,13 @@
 import ContactItems from './ContactItems';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Contacts = () => {
     return (
         <footer>
             {ContactItems.map((item, index) => {
                 return (
-                    <AnimationOnScroll animateIn="animate__tada">
-                        <div key={item.name}>
-                            <a className="contacts" target="_blank" href={item.target}><img src={item.logo} className="contactimg" /></a>
-                        </div>
-                    </AnimationOnScroll>
+                    <div key={item.name}>
+                        <a className="contacts" target="_blank" href={item.target}><img src={item.logo} className="contactimg" /></a>
+                    </div>
                 );
             })}
         </footer>

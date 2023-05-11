@@ -1,6 +1,8 @@
+import profilepic from '../img/me.jpg';
+
 function ProfilePic() {
     return (
-        <img id="dp" src="me.jpg" />
+        <img id="dp" src={profilepic} />
     )
 }
 
