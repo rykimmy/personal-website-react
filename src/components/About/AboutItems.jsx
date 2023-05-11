@@ -7,6 +7,7 @@ import js from '../../img/javascript.png';
 import react from '../../img/react.png';
 import firebase from '../../img/firebase.png';
 
+// Languages and technologies for about section
 const AboutItems = [
     {
         language: 'Python',

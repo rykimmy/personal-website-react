@@ -4,21 +4,27 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Education = () => {
     return (
         <div id="education" className="sections">
+            
+            {/* TITLE */}
             <h1 className="subheaders">Education</h1>
 
+            {/* Mapping through education item components */}
             {EducationItems.map((item, index) => {
                 return (
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
-                        <div className="educationitem" key={item.school}>
+                        <div className="educationItem" key={item.school}>
+
+                            {/* IMAGE */}
                             <div>
-                                <img src={item.logo} className="educationimg" />
+                                <img src={item.logo} className="educationImg" />
                             </div>
 
-                            <div className="schoolinfo">
-                                <h2 className="itemtitle">{item.school}</h2>
-                                <h4 className="itemdescription">{item.degree}</h4>
+                            {/* SCHOOL INFO */}
+                            <div className="schoolInfo">
+                                <h2 className="itemTitle">{item.school}</h2>
+                                <h4 className="itemDescription">{item.degree}</h4>
 
-                                <div classname="itemdetails">
+                                <div classname="itemDetails">
                                     <h5 className="detail">{item.location}</h5>
                                     <h5 className="detail">{item.time}</h5>
                                 </div>
@@ -30,6 +36,8 @@ const Education = () => {
         </div>
     );
 };
+
+//////////// OLD CODE WITHOUT USING COMPONENTS ////////////
 
 // function Education() {
 //     return (

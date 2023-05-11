@@ -10,17 +10,25 @@ import "animate.css/animate.min.css";
 function BodyContent() {
     return (
         <div>
+            {/* No animation for about section since it is shows on page opening */}
             <About />
             
+            {/* EDUCATION SECTION */}
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Education />
             </AnimationOnScroll>
+
+            {/* EXPERIENCE SECTION */}
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Experience />
             </AnimationOnScroll>
+
+            {/* PROJECTS SECTIONS */}
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <Projects />
             </AnimationOnScroll>
+
+            {/* ACTIVITIES AND INTERESTS SECTION */}
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                 <ActivitiesInterests />
             </AnimationOnScroll>
@@ -31,7 +39,7 @@ function BodyContent() {
             <Projects />
             <ActivitiesInterests /> */}
         </div>
-    )
-}
+    );
+};
 
 export default BodyContent;

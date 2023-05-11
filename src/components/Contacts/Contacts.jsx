@@ -3,16 +3,20 @@ import ContactItems from './ContactItems';
 const Contacts = () => {
     return (
         <footer>
+
+            {/* Mapping through contact item components */}
             {ContactItems.map((item, index) => {
                 return (
                     <div key={item.name}>
-                        <a className="contacts" target="_blank" href={item.target}><img src={item.logo} className="contactimg" /></a>
+                        <a className="contacts" target="_blank" href={item.target}><img src={item.logo} className="contactImg" /></a>
                     </div>
                 );
             })}
         </footer>
-    )
-}
+    );
+};
+
+//////////// OLD CODE WITHOUT USING COMPONENTS ////////////
 
 // function Contacts() {
 //     return (

@@ -3,24 +3,36 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const ActivitiesInterests = () => {
     return (
-        <div id="activitiesandinterests" className="sections">
+        <div id="activitiesAndInterests" className="sections">
+
+            {/* TITLE */}
             <h1 className="subheaders">Activities and Interests</h1>
 
+            {/* Mapping through activity/interest item components */}
             {ActivitiesInterestsItems.map((item, index) => {
                 return (
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
-                        <div className="activityitem">
+                        <div className="activityItem">
+                            {/* TITLE */}
                             <h2>{item.name}</h2>
+
+                            {/* ROLE */}
                             <h4>{item.role}</h4>
-                            <img className="activityimg" src={item.logo} />
-                            <p className="activitydescription">{item.description}</p>
+
+                            {/* IMAGE */}
+                            <img className="activityImg" src={item.logo} />
+
+                            {/* DESCRIPTION */}
+                            <p className="activityDescription">{item.description}</p>
                         </div>
                     </AnimationOnScroll>
                 );
             })}
         </div>
-    )
-}
+    );
+};
+
+//////////// OLD CODE WITHOUT USING COMPONENTS ////////////
 
 // function ActivitiesInterests() {
 //     return (

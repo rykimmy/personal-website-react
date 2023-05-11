@@ -148,13 +148,13 @@ a:visited {
     flex-wrap: wrap;
 }
 
-.languageitem{
+.languageItem{
     box-shadow: none;
 
     transition: all .3s ease-in-out; 
 }
 
-.languageitem:hover {
+.languageItem:hover {
     transform: scale(1.1);
 }
 
@@ -162,7 +162,7 @@ a:visited {
     margin-bottom: 0.5em;
 }
 
-.languageimg {
+.languageImg {
     max-width: 50px;
     max-height: 50px;
 }
@@ -171,7 +171,7 @@ a:visited {
 /* ------------ EDUCATION SECTION ------------ */
 /* ------------------------------------------- */
 
-.educationitem {
+.educationItem {
     display: flex;
     flex-direction: row;
     justify-content: center; /* CHANGE TO CENTER (THEN CHANGE FOR FOLLOWING SECTIONS TOO) */
@@ -181,7 +181,7 @@ a:visited {
     padding: 2%;
 }
 
-.educationimg {
+.educationImg {
     max-width: 200px;
     max-height: 200px;
 
@@ -190,7 +190,7 @@ a:visited {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.schoolinfo {
+.schoolInfo {
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
@@ -198,17 +198,17 @@ a:visited {
     margin-left: 5%;
 }
 
-.itemtitle {
+.itemTitle {
     margin-bottom: 0px;
     min-width: 200px;
 }
 
-.itemdescription {
+.itemDescription {
     margin-top: 1.4em;
     margin-bottom: 1.3em;
 }
 
-.itemdetails {
+.itemDetails {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -241,7 +241,7 @@ a:visited {
 /* ----------- EXPERIENCE SECTION ------------ */
 /* ------------------------------------------- */
 
-.experienceitem {
+.experienceItem {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,7 +251,7 @@ a:visited {
     padding: 2%;
 }
 
-.experienceimg {
+.experienceImg {
     max-width: 200px;
     max-height: 200px;
 
@@ -261,10 +261,10 @@ a:visited {
 }
 
 /* PROBLEM WITH SPACING: EITHER NOT ALIGNED OR TEXT SHIFTS UP */
-.experienceinfo {
+.experienceInfo {
     display: flex;
     flex-wrap: wrap;
-    max-width: 30%;
+    max-width: 40%;
 
     margin-left: 5%;
 }
@@ -279,7 +279,7 @@ background blue – #07487e
 text blue (darker) – #113662
 */
 
-.projectitem {
+.projectItem {
     background-color: #07487e;
     color: #f7f4ef;
 
@@ -295,17 +295,17 @@ text blue (darker) – #113662
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.projecttitle {
+.projectTitle {
     margin-top: 0.5em;
 }
 
-.languagedetails {
+.languageDetails {
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
 
-.languageitem {
+.languageItem {
     background-color: #f7f4ef;
     color: #07487e;
     
@@ -320,13 +320,13 @@ text blue (darker) – #113662
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.projectdescription {
+.projectDescription {
     margin-bottom: 2.0em;
 
     padding: 0;
 }
 
-.projectlink {
+.projectLink {
     background-color: #f7f4ef;
     color: #07487e;
     /* text-decoration: none; */
@@ -344,7 +344,7 @@ text blue (darker) – #113662
     width: 10vw;
 }
 
-.projectlink:hover {
+.projectLink:hover {
     transform: scale(1.05);
 }
 
@@ -356,7 +356,7 @@ text blue (darker) – #113662
 /* ----------- ACTIVITIES SECTION ------------ */
 /* ------------------------------------------- */
 
-.activityitem {
+.activityItem {
     background-color: #07487e;
     color: #f7f4ef;
 
@@ -374,7 +374,7 @@ text blue (darker) – #113662
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.activityimg {
+.activityImg {
     width: 40%;
 
     border-radius: 10px;
@@ -382,7 +382,7 @@ text blue (darker) – #113662
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.activitydescription {
+.activityDescription {
     margin: 3vw;
 }
 
@@ -401,7 +401,7 @@ footer {
     text-align: center;
 }
 
-.contactimg {
+.contactImg {
     display: inline;
     margin-left: auto;
     margin-right: auto;
@@ -412,6 +412,6 @@ footer {
     transition: all .3s ease-in-out; 
 }
 
-.contactimg:hover {
+.contactImg:hover {
     transform: scale(1.1);
 }

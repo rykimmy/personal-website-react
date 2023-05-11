@@ -4,32 +4,39 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Experience = () => {
     return (
         <div id="experience" className="sections">
+            {/* TITLE */}
             <h1 className="subheaders">Experience</h1>
 
+            {/* Mapping through experience item components */}
             {ExperienceItems.map((item, index) => {
                 return (
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
-                        <div className="experienceitem" key={item.experience}>
+                        <div className="experienceItem" key={item.experience}>
+                            
+                            {/* IMAGE */}
                             <div>
-                                <img src={item.logo} className="experienceimg" />
+                                <img src={item.logo} className="experienceImg" />
                             </div>
 
-                            <div className="experienceinfo">
-                                <h2 className="itemtitle">{item.experience}</h2>
-                                <h4 className="itemdescription">{item.role}</h4>
+                            {/* EXPERIENCE INFO */}
+                            <div className="experienceInfo">
+                                <h2 className="itemTitle">{item.experience}</h2>
+                                <h4 className="itemDescription">{item.role}</h4>
 
-                                <div className="itemdetails">
+                                <div className="itemDetails">
                                     <h5 className="detail">{item.location}</h5>
                                     <h5 className="detail">{item.time}</h5>
                                 </div>
                             </div>
                         </div>
                     </AnimationOnScroll>
-                )
+                );
             })}
         </div>
-    )
-}
+    );
+};
+
+//////////// OLD CODE WITHOUT USING COMPONENTS ////////////
 
 // function Experience() {
 //     return (

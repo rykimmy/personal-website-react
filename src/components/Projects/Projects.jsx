@@ -4,32 +4,42 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Projects = () => {
     return (
         <div id="projects" className="sections">
+
+            {/* TITLE */}
             <h1 className="subheaders">Projects</h1>
 
+            {/* Mapping through project item components */}
             {ProjectItems.map((item, index) => {
                 return (
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeftBig">
-                        <div className="projectitem" key={item.project}>
-                            <h2 className="projecttitle">{item.project}</h2>
+                        <div className="projectItem" key={item.project}>
+                            
+                            {/* TITLE */}
+                            <h2 className="projectTitle">{item.project}</h2>
 
-                            <div className="languagedetails">
+                            {/* PROJECT INFO */}
+                            <div className="languageDetails">
                                 {item.languages.map((lan, index) => {
                                     return (
-                                        <h5 className="languageitem">{lan.name}</h5>
+                                        <h5 className="languageItem">{lan.name}</h5>
                                     );
                                 })}
                             </div>
 
-                            <p className="projectdescription">{item.description}</p>
+                            {/* PROJECT DESCRIPTION */}
+                            <p className="projectDescription">{item.description}</p>
 
-                            <p className="projectlink"><a className="github" target="_blank" href={item.link}>Github Repository</a></p>
+                            {/* GITHUB LINK */}
+                            <p className="projectLink"><a className="github" target="_blank" href={item.link}>Github Repository</a></p>
                         </div>
                     </AnimationOnScroll>
                 );
             })}
         </div>
-    )
-}
+    );
+};
+
+//////////// OLD CODE WITHOUT USING COMPONENTS ////////////
 
 // function Projects() {
 //     return (
