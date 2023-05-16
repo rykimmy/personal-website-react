@@ -6,7 +6,7 @@ const ContactItems = [
     {
         name: 'email',
         logo: email,
-        target: 'malto:ryan.s.kim.25@dartmouth.edu',
+        target: 'mailto:ryan.s.kim.25@dartmouth.edu',
     },
     {
         name: 'github',
