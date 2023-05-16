@@ -1,11 +1,11 @@
-import { fern } from '../../img/fern.jpg';
+// import { fern } from '../../img/fern.jpg';
 import ksa from '../../img/ksa.jpg';
 import dmvb from '../../img/volleyball.jpg';
 
 const ActivitiesInterestsItems = [
     {
         name: 'Fern Cafe',
-        logo: fern,
+        logo: '',
         role: 'Student Supervisor',
         description: 'I am one of two student supervisors at Dartmouth’s Fern Cafe, an on-campus dining service for students and faculty. My time working at the Fern has taught me to act in a professional manner within a student-dominated environment; exhibit professional behavior with regards to customer service, handling food, and managing work hours; and communicate effectively with my staff manager as well as other student workers.',
     },
