@@ -10,6 +10,10 @@ The code is separated into various components responsible for each of the sectio
 
 To run the code locally, `cd` into the directory and run `npm run dev`.
 
+### Demo Video
+
+https://drive.google.com/file/d/1wMtWAU2OH-ml5HkTwU_Gg-w05SmzHSWs/view?usp=sharing
+
 ### Extra Comments
 
 I came into this project with no background experience other than the DALI Frontend Mini-Series.
