@@ -1,4 +1,4 @@
-import fern from '../../img/fern.jpg';
+import { fern } from '../../img/fern.jpg';
 import ksa from '../../img/ksa.jpg';
 import dmvb from '../../img/volleyball.jpg';
 
