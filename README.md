@@ -1,6 +1,7 @@
 # personal-website-react
 
 Github username: rykimmy
+Deployed Link: https://ryankim.netlify.app/
 
 ## Description
 
