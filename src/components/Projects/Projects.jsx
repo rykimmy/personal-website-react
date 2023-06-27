@@ -3,7 +3,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Projects = () => {
     return (
-        <div id="projects" className="sections">
+        <section id="projects" className="sections">
 
             {/* TITLE */}
             <h1 className="subheaders">Projects</h1>
@@ -35,7 +35,7 @@ const Projects = () => {
                     </AnimationOnScroll>
                 );
             })}
-        </div>
+        </section>
     );
 };
 

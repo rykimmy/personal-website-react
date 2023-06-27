@@ -2,7 +2,7 @@ import AboutItems from './AboutItems';
 
 const About = () => {
     return (
-        <div id="about" className="sections">
+        <section id="about" className="sections">
             {/* SECTION TITLE */}
             <h1 className="subheaders">About</h1>
 
@@ -21,7 +21,7 @@ const About = () => {
                     );
                 })}
             </div>
-        </div>
+        </section>
     );
 };
 
